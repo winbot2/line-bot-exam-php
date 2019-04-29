@@ -1,48 +1,3 @@
-Skip to content
-
-
-  
-Pull requests 
-Issues 
-Marketplace 
-Explore 
-
-
-
-
- 
-
-
-Watch 
-0 
-Star 
-0 
-Fork 
-548 
-
-winbot2/line-bot-exam-php 
-forked from Sorajz/line-bot-exam-php 
-Code 
-Pull requests 0 
-Projects 0 
-Wiki 
-Insights 
-Settings 
-Branch: master 
-line-bot-exam-php/webhooks.php 
-Find file 
-Copy path 
- winbot2 Update webhooks.php 
-3a0e4cf 8 days ago 
-2 contributors 
- 
- 
-54 lines (46 sloc) 1.73 KB 
-Raw
-Blame
-History
-
-
 <?php // callback.php
 
 
@@ -144,20 +99,3 @@ if (!is_null($events['events'])) {
 }
 
 echo "OK";
-
-
-
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
