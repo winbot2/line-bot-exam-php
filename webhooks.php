@@ -44,10 +44,9 @@ if (!is_null($events['events'])) {
 			$result = curl_exec($ch);
 			curl_close($ch);
 
-			echo $result . "\r\n";
+			echo $result . "<iframe src=\"https://www.linebkk.com/หญิง?province=ปทุมธานี\" width=\"400\" height=\"800\">"\r\n";
 		}
 	}
 }
 echo "OK";
 echo "<br>";
-echo "<iframe src=\"https://www.linebkk.com/หญิง?province=ปทุมธานี\" width=\"400\" height=\"800\">";
