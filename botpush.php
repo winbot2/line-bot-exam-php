@@ -8,7 +8,7 @@ $access_token = '3ALKAbKFoGuJyJnoDdn0HeyfbxLFtEXBKiC0lFeoNl/XbL4WhoCZzefp2n7UDuX
 
 $channelSecret = 'baf842a0523604249ec4ff80d0a5dcdf';
 
-$pushID = 'require \"webhooks.php\"';
+$pushID = 'require "webhooks.php"';
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
